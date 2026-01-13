@@ -113,8 +113,4 @@ The code and datasets are released for non-commercial and research purposes only
 
 This work was supported by the **Planetary Science group** at the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS), **Wuhan University**.
 
----
-
-**Next Step:** Would you like me to create the BibTeX citation for this new CSTLF model so you can include it in the README?
-
 
