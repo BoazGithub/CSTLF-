@@ -1,4 +1,4 @@
-# <h1 align="center">  <b>CSTLF|CSTLF: Cross-Spatio-Temporal Feature Fusion Learning for Weakly Supervised Remote Sensing Change Detection </b><br></h1>
+# <h1 align="center">  <b>CSTLF: Cross-Spatio-Temporal Feature Fusion Learning for Weakly Supervised Remote Sensing Change Detection </b><br></h1>
 
 <h2 align="left">Authors <br></h2>
 
