@@ -1,11 +1,21 @@
-Got it — you want a **GitHub-native README** that is **pure Markdown**, **no paper language**, **no LaTeX**, **no reviewer tone**, and clearly **ready to host code**, while still being **TIP-appropriate** and **concise**.
+You’re right — **what’s in your repo now looks bad because the Markdown is broken**, not because the content is wrong.
 
-Below is a **clean, developer-correct `README.md`**.
-You can paste this **directly into GitHub** and it will work immediately.
+The problems are:
+
+* Sections merged together (no blank lines)
+* Code blocks not closed
+* Repository tree not in a fenced block
+* Extra explanation text accidentally pasted into `README.md`
+* Headings like *Training / Results / Datasets* missing `##`
+
+Below is a **clean, minimal, GitHub-native README.md** that will **render correctly**, look **professional**, and is **concise**.
+👉 **Delete your current README.md and replace it 100% with the text below.**
 
 ---
 
-```md
+## ✅ **FINAL README.md (COPY–PASTE ONLY THIS)**
+
+````md
 # CSTLF
 
 CNN–Semantic Transformer Learning Framework for fine-scale land-cover mapping
@@ -15,40 +25,39 @@ from multimodal remote sensing imagery under weak supervision.
 
 ## Overview
 
-CSTLF is a CNN–Transformer hybrid deep learning framework designed for
-high-resolution semantic segmentation of aerial, drone, and satellite imagery.
-It combines convolutional neural networks for local spatial feature extraction
-with Vision Transformers for global semantic context modeling.
+CSTLF is a CNN–Transformer hybrid deep learning framework for high-resolution
+semantic segmentation of aerial, drone, and satellite imagery. It combines
+convolutional neural networks for local spatial feature extraction with Vision
+Transformers for global semantic context modeling.
 
-The framework is developed for weakly supervised scenarios, where high-resolution
-imagery is paired with low-resolution or noisy annotations.
+The framework targets weakly supervised scenarios where high-resolution imagery
+is paired with low-resolution or noisy annotations.
 
 ---
 
 ## Framework
 
-<!-- Insert framework architecture figure here -->
-<!-- e.g., images/cstlf_framework.png -->
+<!-- Add framework figure here -->
+<!-- Example: images/cstlf_framework.png -->
 
-CSTLF uses parallel CNN and Transformer branches followed by a contextual
+CSTLF adopts parallel CNN and Transformer branches followed by a contextual
 semantic fusion module to produce fine-scale predictions.
 
 ---
 
 ## Features
 
-- CNN–Transformer hybrid architecture
-- Weakly supervised learning support
-- Multimodal remote sensing data
-- Pixel-level semantic segmentation
-- Reproducible, configuration-driven experiments
+- CNN–Transformer hybrid architecture  
+- Weakly supervised learning  
+- Multimodal remote sensing data  
+- Pixel-level semantic segmentation  
+- Reproducible experiments  
 
 ---
 
 ## Repository Structure
 
-```
-
+```text
 CSTLF/
 ├── configs/        # Training configurations
 ├── datasets/       # Dataset loaders and preprocessing
@@ -58,7 +67,6 @@ CSTLF/
 ├── utils/          # Utilities and visualization
 ├── train.py
 └── requirements.txt
-
 ````
 
 ---
@@ -69,7 +77,7 @@ CSTLF/
 git clone https://github.com/BoazGithub/CSTLF.git
 cd CSTLF
 pip install -r requirements.txt
-````
+```
 
 ---
 
@@ -83,9 +91,7 @@ python train.py --config configs/cstlf.yaml
 
 ## Results
 
-<!-- Insert qualitative and quantitative results here -->
-
-<!-- e.g., images/results.png -->
+<!-- Add qualitative and quantitative results here -->
 
 Evaluation metrics include Overall Accuracy (OA), mean IoU, and F1-score.
 
@@ -132,23 +138,3 @@ MIT License
 
 Boaz Mwubahimana
 [https://github.com/BoazGithub](https://github.com/BoazGithub)
-
-```
-
----
-
-### ✅ Why this is **correct for GitHub**
-- Pure Markdown (`.md`)
-- No LaTeX, no IEEE formatting
-- Proper code fences
-- Comment-based figure placeholders
-- Clean structure GitHub recognizes
-
-If you want, I can next:
-- Add **actual image embed syntax**
-- Create a **minimal README for anonymous review**
-- Align folder names exactly with your current repo
-- Add **badges (PyTorch, license, Python)**
-
-Just tell me what’s next.
-```
