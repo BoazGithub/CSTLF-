@@ -19,6 +19,7 @@
 This study introduces the **Cross-Spatio-Temporal Learning Framework (CSTLF)**, a unified architecture for autonomous land-cover change detection. To address the limitations of bi-temporal snapshots and annotation bottlenecks, CSTLF harmonizes **CNN-based spatial primitives**, **LSTM-based sequential state propagation**, and **Transformer-driven global attention**. By leveraging weakly supervised pseudo-labels from low-resolution products (GLC10), the model achieves high-fidelity change mapping. CSTLF Model and the **sKwanda_v1** (Nyagatare, Kigali, Chesapeake Bay) datasets can be downloaded [[here](https://github.com/BoazGithub/CSTLF)].
  
 
+
 ## Graphical abstract: 
 
 Graphical abstract illustrating the synergistic multi-scale and multi-temporal feature extraction within the CSTLF architecture. It highlights the integration of CNN, LSTM, and Transformer branches to resolve spatial heterogeneity and temporal dependencies in high-resolution imagery.
