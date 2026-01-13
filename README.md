@@ -1,7 +1,3 @@
-Here is the refined **README.md** tailored for the **CSTLF** model, following your specific formatting style, structure, and badge usage.
-
----
-
 # <h1 align="center">  <b>CSTLF: Cross-Spatio-Temporal Learning Framework for Weakly Supervised Remote Sensing Change Detection </b>
 
 
